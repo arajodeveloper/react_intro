@@ -1,7 +1,9 @@
 # React Nested Components
 
+## Video Lecture
+
 ## Overview
-* React components are independent and resuable piece of code
+* React components are **independent** and **resuable** piece of code
 * Class components serve a similar purpose as functions, but work in isolation and returns JSX via a render function 
 ---
 ## Learning Objectives
@@ -70,7 +72,7 @@ Next, we have a ```return()``` which is similar to the built-in JS function ```r
 
 In React, the component renders only one JSX element. Therefore, it is imperative to wrap all of your elements in a single containing tag. In the example above, we created an empty ```div``` to house the JSX code we will be writing. This is where we will nest our other components. 
 
-Next, we will define another component class: 
+Let's define another component class right below our App component: 
 
 ```html
 <script type="text/babel">
@@ -130,7 +132,8 @@ Next, we will define another component class:
 </script>
 ```
 
-With that call to the Content component within the App component's render, we now have a nested component. This pattern allows us to start building more complex applications. But, at this stage it helps to have some project structure built into our app application. For that we will turn to  ```yarn create react-app **your app name**```. 
+With that call to the Content component within the App component's render, we now have a nested component. This pattern allows us to start building more complex applications. But, at this stage it helps to have some project structure built into our app application. For that we will turn to  
+```yarn create react-app **your app name**```. 
 
 
 <h4>
@@ -176,7 +179,7 @@ Here are your stories:
 * As a user, I can see a Content component that contains a list of your top three favorite colors.
 * As a user, I can see a Footer component with the names of you and someone you care about.
 <p>
----
+
 
 
 
