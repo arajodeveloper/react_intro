@@ -22,14 +22,14 @@
 ---
 
 ## What is JSX?
-<h4>JSX is JavaScript flavored HTML that behaves almost like HTML with a couple small exceptions -- most notably JSX uses the syntax <code>className</code> rather than HTML's <code>class</code> because <code>class</code> is reserved for HTML. <br /><h4>
+<p>JSX is JavaScript flavored HTML that behaves almost like HTML with a couple small exceptions -- most notably JSX uses the syntax <code>className</code> rather than HTML's <code>class</code> because <code>class</code> is reserved for HTML. <br /><p>
 
-<h4>As the building block of React Components, you will be using JSX a lot. <h4>
+<p>As the building block of React Components, you will be using JSX a lot. <p>
 
 ---
 ## Nested Components
-<h4>Nesting components allow us to call a component within the return of another component.<h4> 
-<h4>Let's start with a new application: <h4>
+<p>Nesting components allow us to call a component within the return of another component.<p> 
+<p>Let's start with a new application: <p>
 
 ```html
 <!DOCTYPE html>
@@ -61,7 +61,7 @@
 </html>
 ```
 
-<h4>
+<p>
 We have set up an App component to return an empty div. 
 
 First, let's look at the ```render()``` class method. Render only works in smart, class components, and is doing the rendering of our JSX to display the code that will go within our empty our empty div. 
@@ -99,7 +99,7 @@ Next, we will define another component class:
 </script>
 ```
 
-<h4>Finally, we call the component within the main component. In our case, the App component: <h4>
+<p>Finally, we call the component within the main component. In our case, the App component: <p>
 
 ```html
 <script type="text/babel">
@@ -137,7 +137,7 @@ With that call to the Content component within the App component's render, we no
 ---
 
 ## Challenge!
-<h4>The goal of the following challenge is for you to practice nesting components and getting familiar with class based component syntax. 
+<p>The goal of the following challenge is for you to practice nesting components and getting familiar with class based component syntax. 
 
 Create a new HTML file. Copy the following code into your file:
 
@@ -175,7 +175,7 @@ Here are your stories:
 * As a user, I see a Header component with your name 
 * As a user, I can see a Content component that contains a list of your top three favorite colors.
 * As a user, I can see a Footer component with the names of you and someone you care about.
-<h4>
+<p>
 ---
 
 
