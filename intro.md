@@ -22,7 +22,7 @@
 ---
 
 ## What is JSX?
-<h4>JSX is JavaScript flavored HTML that behaves almost like HTML with a couple small exceptions -- most notably JSX uses the syntax ```className``` rather than HTML's ```class``` because ```class``` is reserved for HTML. <br /><h4>
+<h4>JSX is JavaScript flavored HTML that behaves almost like HTML with a couple small exceptions -- most notably JSX uses the syntax <code>className</code> rather than HTML's <code>class</code> because <code>class</code> is reserved for HTML. <br /><h4>
 
 <h4>As the building block of React Components, you will be using JSX a lot. <h4>
 
