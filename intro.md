@@ -1,6 +1,8 @@
 # React Nested Components
 
 ## Video Lecture
+[Intro to React](https://youtu.be/47Hv0u9jL5M)
+
 
 ## Overview
 * React components are **independent** and **resuable** piece of code
@@ -22,7 +24,8 @@
 * component call
 * JSX
 ---
-
+## Useful Resources
+* React Documentation:
 ## What is JSX?
 <p>JSX is JavaScript flavored HTML that behaves almost like HTML with a couple small exceptions -- most notably JSX uses the syntax <code>className</code> rather than HTML's <code>class</code> because <code>class</code> is reserved for HTML. <br /><p>
 
